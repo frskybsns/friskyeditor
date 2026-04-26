@@ -1,0 +1,2420 @@
+<style type="text/css">
+ 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Montserrat|Oswald|PT+Sans|Pacifico|Poppins|Ubuntu');
+ 
+body{
+overflow-x:hidden;
+background-image:
+url( https://i.ibb.co/LCm8Byd/kikoprofilebg.jpg);
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color:#d4d0cf;
+overflow:hidden;}
+ 
+::-webkit-scrollbar-thumb:vertical {background-color:#302820; height:3px; }
+::-webkit-scrollbar { height:3px; width:1px; background-color:transparent; }
+ 
+::selection {
+color: #fff;
+background: #121212;}
+ 
+a {
+color: #1C1C36;
+text-decoration:underline;
+text-transform:lowercase;
+font-family: 'Pacifico', cursive;
+font-size:15px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;}
+ 
+a:hover {color: #fff;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;}
+ 
+b {
+ color: #614E7F;
+ text-decoration: none;
+ font-family: georgia, cursive;
+ text-transform:;
+ font-style:italic;
+ font-size:10px;
+ letter-spacing:0;}
+
+/*THIS SECTION IS RESPOSIBLE FOR THE COLOR THAT BOLDED CONTENT TURNS*/
+ 
+ 
+h1 {
+ margin-top:1px;
+ line-height:25px;
+ text-align:center;
+ color:#614E7F;
+ font-family: 'Oswald', sans serif;
+ font-size:20px;
+ letter-spacing:1px;
+ text-transform:uppercase;
+ border-bottom:1px dotted #1f1413;}
+ 
+h2 {
+ padding:5px;
+ margin-top:1px;
+ margin-bottom:5px;
+ color:#614E7F;
+ background:transparent;
+ border-bottom:1px solid #1f1413;
+ font-size:15px;
+ font-family: 'Oswald', sans serif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+ text-align:right;
+ font-weight:500;}
+ 
+*{cursor: url('http://media.tumblr.com/7c3edb626c8cf9435c5c0b2d6acceffd/tumblr_inline_mh67v6xNXM1rdqsqf.png'), default;}
+ 
+#bitch {
+left: 0px; 
+top: 0px; 
+right: 0px;
+bottom: 0px;}
+ 
+ #credit {
+ overflow:hidden;
+ position:fixed;
+ text-align:justify;
+ bottom:0px;
+ right:0px;
+ height:60px;
+ width:60px;
+ padding:0px;
+ opacity:0;
+ background-image: url('https://i.imgur.com/MH0XSqe.png');
+ background-position:top center;
+ background-attachment: absolute;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ transition:opacity .35s ease-in-out;}
+
+#credit:hover,
+body.credit-badge-visible #credit {
+ opacity:.8;}
+ 
+#container {
+ position:absolute;
+ z-index:2;
+ top:50%; /*this moves the ENTIRE container up and down*/
+ margin-top:-300px;
+ left:55%; /*this moves the ENTIRE container left and right*/
+ margin-left:-400px;
+ height:600px;
+ width:780px;/*this shortens and lengthens the width of the container*/
+ background:#E5618F;/*this changes the color of the OUTERMOST border on the container*/
+ background-image:url('');
+ background-repeat:repeat;
+ background-size:100%;}
+
+/*THERE ARE NO VALUES TO CHANGE THE TEXT COLOR WITHIN THE BOX IN THIS 'CONTAINER' SECTION*/
+ 
+.mainimg {
+ position:absolute;
+ width:680px;
+ height:646px;
+ z-index:10;
+ top:-24px; /*this moves the image up and down*/
+ right:-115px; /*this moves the image left and right*/
+ background-color: transparent;
+ background-image: url('https://i.ibb.co/ScK91hV/kikomain.png');
+ background-position:center center;
+ background-attachment: absolute;
+ background-size:63%;
+ background-repeat: no-repeat;}
+ 
+/*THERE ARE NO VALUES TO CHANGE THE TEXT COLOR WITHIN THE BOX IN THIS 'MAINIMG' SECTION*/
+ 
+#sidebar1 {
+ width:300px;
+ left:calc(50% - 650px);
+ position:fixed;
+ z-index:2;
+ top: 50%;
+ transform: translateY(-50%);}
+ 
+#desc {
+ padding:5;
+ margin-bottom:10px;
+ background:#E5618F;
+ font-size:10px;
+ line-height:10px;
+ color: #fff;
+ text-transform:uppercase;
+ font-family:calibri, sans-serif;}
+
+/*THE BACKGROUND VALUE IN THIS SECTION ALTERS THE BG COLOR OF THE SMALL LEFT MENU*/
+ 
+/*THE COLOR VALUE IN THIS SECTION ALTERS THE COLOR OF THE TEXT IN THE SMALL LEFT MENU*/
+ 
+#title {
+ font-weight:800;
+ text-transform:uppercase;
+ font-size:30px;
+ font-family: 'Oswald', sans-serif;
+ background: url(https://i.ibb.co/bj1qghG9/petals1.gif) no-repeat;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-size:cover;
+ background-position:top;
+ margin-bottom:0px;
+ margin-top:0px;
+ line-height:45px;}
+
+/*THE BACKGROUND VALUE IN THIS SECTION ALTERS THE BG BACKDROP OF THE WORDS AT THE TOP OF THE SMALL LEFT MENU*/
+
+.icon {
+ height:100px;
+ width:280px;
+ z-index:10;
+ margin-left:0px;
+ border:10px solid #E5618F;
+ background-color: transparent;
+ background-image: url('https://i.ibb.co/wZhRsWYf/flower.gif');
+ background-position:center center;
+ background-attachment: absolute;
+ background-repeat: no-repeat;}
+
+.icon.is-enhanced-icon {
+ filter:saturate(1.22) contrast(1.04);}
+
+/*THE BORDER VALUE IN THIS SECTION ALTERS THE BORDER COLOR OF THE BOTTOM SMALL LEFT MENU*/
+ 
+#sidebar2 {
+width:250px;}
+ 
+#links {
+ position:absolute;
+ text-transform:uppercase;
+ font-size:20px;
+ top:50%;
+ width:250px;
+ z-index:1000;
+ transform:translateY(-40%);
+ left: calc(50% + 550px); /*this moves the links left and right? the first value seems reponsible for the actual movement of the text, and the second value may map to the invisible menu placement*/
+
+ line-height:45px;} /*this alters the distance between the links*/
+
+#links a {
+ display:block;
+ width:250px;
+ text-decoration:none;}
+ 
+.link {
+ color:#614E7F;
+/*THE COLOR VALUE IN THIS SECTION ALTERS THE COLOR OF THE FLOATING MENU SELECTION ON THE RIGHT*/
+ text-decoration:none;
+ font-weight:800;
+ font-size:20px;
+ text-transform:uppercase;
+ font-family:'Oswald', sans-serif;
+ transition:all 0.6s ease;}
+ 
+#links a:hover .link {
+ padding-left:20px;}
+ 
+#boxbg {
+ background-color:#F2DFDB; /*this changes the color of the outtermost border WITHIN the text box*/
+ position: absolute;
+ width:300px;
+ height:555px;
+ left:10px;
+ top:10px;
+ padding:10px;
+ margin:1px;
+ overflow:auto;
+ opacity:1;}
+
+/*THERE ARE NO VALUES TO CHANGE THE TEXT COLOR WITHIN THE BOX IN THIS 'BOXBG' SECTION*/
+ 
+ 
+#box {
+ background-color:#F2DFDB; 
+/*this changes the color of the innermost container background that the text on the box to the right sits on top of*/
+ text-transform: ;
+ text-align: left;
+ color: #000000;
+/*this changes the color of the text inside the container on the 'reset' page.*/
+ font-size:10px;
+ font-family: 'Montserrat', sans-serif;
+ position: absolute;
+ width:275px;
+ height:530px;
+ left:10px;
+ top:10px;
+ line-height:12px;
+ padding:10px;
+ margin:1px;
+ overflow:auto;
+ opacity:1;
+ z-index:10;}
+ 
+#history {
+ background-color:#F2DFDB;
+/*this changes the color of the innermost container background that the text in the history tab sits on top of*/
+ text-transform: ;
+ text-align: left;
+ color: #000000;/*this changes the color of the text inside the container on the 'history' page.*/
+ font-size:12px;
+ font-family: 'Montserrat', sans-serif;
+ position: absolute;
+ width:275px;
+ height:530px;
+ left:10px;
+ top:10px;
+ line-height:12px;
+ padding:10px;
+ margin:1px;
+ overflow:auto;
+ opacity:0;}
+ 
+#headcanons {
+ background-color:#F2DFDB;
+ text-transform: ;
+ text-align: left;
+ color: #1C1C36; /*this changes the color of the text inside the container on the 'headcanons' page.*/
+ font-size:12px;
+ font-family: 'Montserrat', sans-serif;
+ position: absolute;
+ width:275px;
+ height:530px;
+ left:10px;
+ top:10px;
+ line-height:12px;
+ padding:10px;
+ margin:1px;
+ overflow:auto;
+ opacity:0;}
+ 
+#relationships {
+ background-color:#F2DFDB;
+/*this changes the color of the innermost container background that the text in the relationships tab sits on top of*/
+ text-transform: lowercase;
+ text-align: left;
+ color: #7d756b;
+/*this changes the color of the text inside the container on the 'relationships' page.*/
+ font-size:10px;
+ font-family: 'Montserrat', sans-serif;
+ position: absolute;
+ width:275px;
+ height:530px;
+ left:10px;
+ top:10px;
+ line-height:12px;
+ padding:10px;
+ margin:1px;
+ overflow-x:hidden;
+ overflow-y:auto;
+ opacity:0;}
+ 
+.rel {
+ position:relative;
+ width:250px;
+ height:150px;
+ margin:20px;
+ margin-top:1px;
+ margin-bottom:10px;
+ float:left;
+ margin-left:1px;
+ background:#E5618F;}
+ 
+.rel a {
+ position:absolute;
+ width:100px;
+ height:100px;
+ border-radius:50%;
+ border:10px solid #E5618F;
+ box-shadow:1px 1px 10px #E5618F;
+ margin-top:17px;
+ right:10px;
+ overflow:hidden;
+ cursor:move;}
+
+.rel img {
+ position:absolute;
+ top:var(--relationship-image-top, -2px);
+ left:var(--relationship-image-left, -2px);
+ width:var(--relationship-image-width, calc(100% + 4px));
+ height:var(--relationship-image-height, calc(100% + 4px));
+ object-fit:fill;
+ pointer-events:none;}
+ 
+.wrds {
+ position:absolute;
+ padding:5;
+ margin-left:10px;
+ margin-top:8px;
+ width:120px;
+ height:120px;
+ text-transform:uppercase;
+ color:#000;
+ background-color:#F2DFDB;
+ font-size:8px;
+ font-weight:900;
+ font-family:calibri, sans-serif;}
+ 
+#blanket1:target #history{
+opacity:1; 
+z-index:100;}
+ 
+#blanket1:target #box{
+opacity:0; 
+z-index:1;}
+ 
+#blanket2:target #headcanons{
+opacity:1; 
+z-index:100;}
+ 
+#blanket2:target #box{
+opacity:0; 
+z-index:1;}
+ 
+#blanket3:target #relationships{
+opacity:1; 
+z-index:100;}
+ 
+#blanket3:target #box{
+opacity:0; 
+z-index:1;}
+
+#profile-editor {
+ position:fixed;
+ top:0;
+ left:0;
+ width:300px;
+ height:100vh;
+ box-sizing:border-box;
+ padding:18px;
+ overflow-y:auto;
+ z-index:9999;
+ background:#121212;
+ color:#f3b4cf;
+ font-family:'Poppins', Arial, sans-serif;
+ font-size:13px;
+ line-height:18px;
+ box-shadow:4px 0 18px rgba(0,0,0,.35);
+ transition:transform .35s ease, opacity .25s ease;}
+
+#profile-editor.is-exporting {
+ transform:translateX(-100%);
+ opacity:0;}
+
+#export-sidebar {
+ position:fixed;
+ top:0;
+ left:0;
+ width:300px;
+ height:100vh;
+ box-sizing:border-box;
+ padding:18px;
+ display:flex;
+ flex-direction:column;
+ overflow:hidden;
+ z-index:10001;
+ background:#121212;
+ color:#f3b4cf;
+ font-family:'Poppins', Arial, sans-serif;
+ font-size:13px;
+ line-height:18px;
+ box-shadow:4px 0 18px rgba(0,0,0,.35);
+ transform:translateX(-100%);
+ opacity:0;
+ pointer-events:none;
+ transition:transform .35s ease, opacity .25s ease;}
+
+#export-sidebar.is-visible {
+ transform:translateX(0);
+ opacity:1;
+ pointer-events:auto;}
+
+#export-sidebar h2 {
+ margin:0 0 12px;
+ padding:0 0 10px;
+ color:#E5618F;
+ border-bottom:2px solid #E5618F;
+ font-family:'Poppins', Arial, sans-serif;
+ font-size:18px;
+ text-align:center;}
+
+#export-sidebar p {
+ margin:0 0 12px;
+ color:#f3b4cf;}
+
+#export-sidebar label {
+ position:relative;
+ display:flex;
+ flex:1;
+ min-height:0;
+ flex-direction:column;
+ margin-bottom:10px;
+ color:#6aa8ff;}
+
+#export-sidebar textarea {
+ display:block;
+ width:100%;
+ flex:1;
+ min-height:0;
+ box-sizing:border-box;
+ margin-top:4px;
+ padding:28px 8px 8px;
+ border:1px solid #614E7F;
+ background:#201b25;
+ color:#ffffff;
+ font-family:Consolas, "Courier New", monospace;
+ font-size:11px;
+ line-height:15px;
+ resize:vertical;}
+
+#export-sidebar button:not(.copy-export) {
+ width:100%;
+ padding:7px;
+ border:1px solid #614E7F;
+ background:#201b25;
+ color:#6aa8ff;
+ font-family:'Poppins', Arial, sans-serif;
+ font-size:12px;
+ font-weight:bold;
+ cursor:pointer;
+ transition:background .2s ease, border-color .2s ease, color .2s ease;}
+
+#export-sidebar button:not(.copy-export):hover {
+ background:#6aa8ff;
+ color:#121212;
+ border-color:#6aa8ff;}
+
+#export-sidebar #back-to-editor {
+ margin:0;}
+
+#export-sidebar .copy-export {
+ position:absolute;
+ top:27px;
+ right:6px;
+ width:24px;
+ height:22px;
+ padding:0;
+ border:1px solid #614E7F;
+ border-radius:4px;
+ background:#201b25;
+ color:#6aa8ff;
+ font-size:12px;
+ cursor:pointer;}
+
+#export-sidebar .copy-export:hover {
+ background:#6aa8ff;
+ color:#121212;
+ border-color:#6aa8ff;}
+
+#profile-editor,
+#profile-editor * {
+ cursor:auto;}
+
+#profile-editor [hidden] {
+ display:none;}
+
+#profile-editor h2 {
+ margin:0 0 12px;
+ padding:0 0 10px;
+ color:#f3b4cf;
+ border-bottom:2px solid #E5618F;
+ text-align:center;
+ font-family:'Poppins', Arial, sans-serif;
+ font-size:18px;
+ letter-spacing:0;
+ text-transform:none;}
+
+#profile-editor .editor-title-wrap {
+ position:relative;
+ display:inline-block;
+ max-width:100%;}
+
+#profile-editor h2 img {
+ display:block;
+ margin:0 auto;
+ max-width:100%;
+ height:auto;
+ image-rendering:pixelated;
+ image-rendering:crisp-edges;
+ -ms-interpolation-mode:nearest-neighbor;}
+
+#profile-editor .editor-scrollbar {
+ position:fixed;
+ top:72px;
+ left:286px;
+ width:6px;
+ height:calc(100vh - 144px);
+ border-radius:999px;
+ background:rgba(97,78,127,.45);
+ opacity:0;
+ pointer-events:none;
+ transform:translateX(-4px);
+ transition:opacity .2s ease, transform .24s ease;
+ z-index:10000;}
+
+#profile-editor:hover .editor-scrollbar,
+#profile-editor.is-toolbar-visible .editor-scrollbar {
+ opacity:1;
+ pointer-events:auto;
+ transform:translateX(0);}
+
+#profile-editor .editor-scrollbar-thumb {
+ position:absolute;
+ top:0;
+ left:-2px;
+ width:10px;
+ min-height:34px;
+ border-radius:999px;
+ background:#6aa8ff;
+ box-shadow:0 0 0 1px #121212, 0 0 10px rgba(106,168,255,.5);
+ cursor:pointer;
+ transition:background .2s ease;}
+
+#profile-editor .editor-scrollbar-thumb:hover,
+#profile-editor.is-scrollbar-dragging .editor-scrollbar-thumb {
+ background:#ffffff;}
+
+#profile-editor .editor-for {
+ display:block;
+ margin-top:6px;
+ color:#E5618F;
+ font-family:'Poppins', Arial, sans-serif;
+ font-size:13px;
+ font-weight:600;
+ letter-spacing:.8px;
+ text-transform:none;}
+
+#profile-editor .editor-version {
+ position:absolute;
+ right:-24px;
+ bottom:0;
+ color:#6aa8ff;
+ font-family:"Courier New", monospace;
+ font-size:8px;
+ font-weight:700;
+ line-height:1;
+ text-transform:none;
+ -webkit-font-smoothing:none;
+ font-smooth:never;}
+
+#profile-editor .editor-name {
+ color:#f8bfd8;}
+
+#profile-editor h3 {
+ margin:18px 0 8px;
+ color:#E5618F;
+ font-size:13px;
+ text-transform:uppercase;
+ letter-spacing:1px;}
+
+#profile-editor label {
+ display:block;
+ margin-bottom:10px;
+ color:#6aa8ff;}
+
+#profile-editor input,
+#profile-editor select,
+#profile-editor textarea {
+ display:block;
+ width:100%;
+ box-sizing:border-box;
+ margin-top:4px;
+ padding:8px;
+ border:1px solid #614E7F;
+ background:#201b25;
+ color:#ffffff;
+ font-family:Arial, sans-serif;
+ font-size:12px;}
+
+#profile-editor input[type="radio"],
+#profile-editor input[type="checkbox"] {
+ display:inline-block;
+ width:auto;
+ margin-right:6px;}
+
+#profile-editor input[hidden] {
+ display:none;}
+
+#profile-editor textarea {
+ min-height:74px;
+ overflow:auto;
+ resize:vertical;}
+
+#profile-editor textarea[data-profile-input="history.body"] {
+ height:160px;
+ min-height:160px;
+ overflow:auto;
+ resize:vertical;}
+
+#profile-editor input::selection,
+#profile-editor textarea::selection {
+ color:#ffffff;
+ background:#0078d7;}
+
+#profile-editor button {
+ width:100%;
+ margin:-4px 0 12px;
+ padding:7px;
+ border:1px solid #614E7F;
+ background:#201b25;
+ color:#6aa8ff;
+ font-family:'Poppins', Arial, sans-serif;
+ font-size:12px;
+ font-weight:bold;
+ cursor:pointer;
+ transition:background .2s ease, border-color .2s ease, color .2s ease;}
+
+#profile-editor button:hover {
+ background:#6aa8ff;
+ color:#121212;
+ border-color:#6aa8ff;}
+
+#profile-editor .texture-preset-row {
+ display:flex;
+ gap:6px;
+ margin:-4px 0 12px;}
+
+#profile-editor .texture-preset-row button {
+ flex:1;
+ margin:0;
+ padding:6px 4px;
+ background:#201b25;
+ color:#6aa8ff;
+ border:1px solid #614E7F;}
+
+#profile-editor .texture-preset-row button.is-active {
+ background:#6aa8ff;
+ color:#121212;
+ border-color:#6aa8ff;}
+
+#profile-editor .texture-preset-row button.is-active:hover {
+ background:#6aa8ff;
+ color:#121212;
+ border-color:#6aa8ff;}
+
+#profile-editor .background-option-list {
+ display:grid;
+ gap:6px;
+ margin:0 0 12px;}
+
+#profile-editor .background-option-list button {
+ margin:0;
+ background:#201b25;
+ color:#6aa8ff;
+ border:1px solid #614E7F;}
+
+#profile-editor .background-option-list button.is-active {
+ background:#6aa8ff;
+ color:#121212;
+ border-color:#6aa8ff;}
+
+#profile-editor .background-option-list button.is-active:hover {
+ background:#6aa8ff;
+ color:#121212;
+ border-color:#6aa8ff;}
+
+#profile-editor .editor-reveal {
+ overflow:hidden;
+ max-height:0;
+ opacity:0;
+ transform:translateY(-6px);
+ transition:max-height .28s ease, opacity .2s ease, transform .28s ease;}
+
+#profile-editor .editor-reveal.is-visible {
+ max-height:260px;
+ opacity:1;
+ transform:translateY(0);}
+
+#profile-editor .editor-section-reveal {
+ overflow:hidden;
+ max-height:0;
+ opacity:0;
+ transform:translateY(-8px);
+ transition:max-height .35s ease, opacity .24s ease, transform .35s ease;}
+
+#profile-editor .editor-section-reveal.is-visible {
+ max-height:1000px;
+ opacity:1;
+ transform:translateY(0);}
+
+#profile-editor .relationship-image-advanced {
+ margin:-4px 0 12px;
+ padding:8px;
+ border:1px solid #614E7F;
+ background:#201b25;
+ overflow:hidden;
+ max-height:34px;
+ transition:max-height .3s ease, border-color .3s ease;}
+
+#profile-editor .relationship-image-advanced[open] {
+ max-height:360px;
+ border-color:#6aa8ff;}
+
+#profile-editor .relationship-image-advanced summary {
+ color:#6aa8ff;
+ cursor:pointer;
+ font-weight:bold;}
+
+#profile-editor .relationship-image-advanced label {
+ margin:8px 0 0;
+ opacity:0;
+ transform:translateY(-6px);
+ transition:opacity .2s ease, transform .3s ease;}
+
+#profile-editor .relationship-image-advanced[open] label {
+ opacity:1;
+ transform:translateY(0);}
+
+#profile-editor .relationship-slider-value {
+ display:block;
+ margin-top:2px;
+ color:#f3b4cf;
+ font-size:11px;
+ text-align:right;}
+
+.profile-image-highlight {
+ outline:4px solid #ffffff;
+ outline-offset:4px;
+ box-shadow:0 0 0 8px #E5618F, 0 0 22px 10px rgba(229,97,143,.75);}
+
+body.profile-background-highlight::before {
+ content:"";
+ position:fixed;
+ top:0;
+ left:0;
+ right:0;
+ bottom:0;
+ pointer-events:none;
+ z-index:9998;
+ box-shadow:inset 0 0 0 8px #E5618F, inset 0 0 0 12px #ffffff;}
+
+#code-bg-bubbles {
+ display:none;
+ position:fixed;
+ top:0;
+ left:0;
+ width:100vw;
+ height:100vh;
+ overflow:hidden;
+ pointer-events:none;
+ z-index:0;}
+
+body.profile-code-background #code-bg-bubbles {
+ display:block;}
+
+.code-bg-bubble {
+ position:absolute;
+ width:var(--bubble-size);
+ height:var(--bubble-size);
+ left:var(--bubble-x);
+ top:var(--bubble-y);
+ transform:translate(-50%, -50%);
+ border-radius:50%;
+ opacity:var(--bubble-opacity);
+ background-image:url('https://i.ibb.co/4GZPLyY/Bubble2.png');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:contain;}
+
+body.profile-animated-bubbles .code-bg-bubble {
+ pointer-events:auto;
+ cursor:pointer;
+ transition:left var(--move-duration, 8s) ease-in-out, top var(--move-duration, 8s) ease-in-out;}
+
+.code-bg-bubble.is-popping {
+ pointer-events:none;
+ animation:bubble-surface-pop .12s ease-out forwards;}
+
+body.profile-animated-bubbles .code-bg-bubble.is-respawning {
+ animation:bubble-bounce .9s ease-out;}
+
+.bubble-pop-effect {
+ position:fixed;
+ left:var(--pop-x);
+ top:var(--pop-y);
+ width:var(--pop-size);
+ height:var(--pop-size);
+ transform:translate(-50%, -50%);
+ pointer-events:none;
+ z-index:1;}
+
+.bubble-pop-particle {
+ position:absolute;
+ left:50%;
+ top:50%;
+ width:var(--particle-size);
+ height:var(--particle-size);
+ border-radius:50%;
+ background:rgba(255,255,255,.78);
+ box-shadow:0 0 5px rgba(255,255,255,.45);
+ transform:translate(-50%, -50%);
+ animation:bubble-pop-particle var(--particle-duration) ease-out forwards;}
+ 
+@keyframes bubble-surface-pop {
+ 0% {
+  opacity:var(--bubble-opacity);
+  filter:brightness(1);
+  transform:translate(-50%, -50%) scale(1) rotate(0deg);}
+ 28% {
+  opacity:var(--bubble-opacity);
+  filter:brightness(1.28);
+  transform:translate(-50%, -50%) scale(1.08, 1.03) rotate(-2deg);}
+ 58% {
+  opacity:.48;
+  filter:brightness(1.45);
+  transform:translate(-50%, -50%) scale(.72, 1.22) rotate(4deg);}
+ 82% {
+  opacity:.24;
+  filter:brightness(1.7);
+  transform:translate(-50%, -50%) scale(1.34, .58) rotate(-3deg);}
+ 100% {
+  opacity:0;
+  filter:brightness(1.8);
+  transform:translate(-50%, -50%) scale(.08, .08) rotate(7deg);}
+}
+
+@keyframes bubble-pop-particle {
+ 0% {
+  opacity:.75;
+  transform:translate(-50%, -50%) scale(1);}
+ 100% {
+  opacity:0;
+  transform:translate(calc(-50% + var(--particle-x)), calc(-50% + var(--particle-y))) scale(.25);}
+}
+
+@media (prefers-reduced-motion: reduce) {
+ .code-bg-bubble.is-popping,
+ .bubble-pop-particle {
+  animation-duration:.01ms;}
+}
+
+@keyframes bubble-bounce {
+ 0% {
+  opacity:0;
+  transform:translate(-50%, -50%) scale(.15);}
+ 35% {
+  opacity:var(--bubble-opacity);
+  transform:translate(-50%, -50%) scale(1.28, .72);}
+ 52% {
+  opacity:var(--bubble-opacity);
+  transform:translate(-50%, -50%) scale(.78, 1.22);}
+ 68% {
+  opacity:var(--bubble-opacity);
+  transform:translate(-50%, -50%) scale(1.12, .9);}
+ 82% {
+  opacity:var(--bubble-opacity);
+  transform:translate(-50%, -50%) scale(.96, 1.05);}
+ 100% {
+  opacity:var(--bubble-opacity);
+  transform:translate(-50%, -50%) scale(1);}
+}
+</style>
+ 
+<div id="code-bg-bubbles">
+<div class="code-bg-bubble" style="--bubble-x:81.17%;--bubble-y:58.07%;--bubble-size:618.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:6.56%;--bubble-y:8.73%;--bubble-size:64.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:3.15%;--bubble-y:20.17%;--bubble-size:107.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:13.91%;--bubble-y:30.03%;--bubble-size:148.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:17.86%;--bubble-y:3.63%;--bubble-size:179.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:28.75%;--bubble-y:10.98%;--bubble-size:97.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:7.63%;--bubble-y:44.84%;--bubble-size:51.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:2.86%;--bubble-y:61.54%;--bubble-size:83.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:5.73%;--bubble-y:75.33%;--bubble-size:54.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:12.16%;--bubble-y:83.04%;--bubble-size:36px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:19.01%;--bubble-y:55.92%;--bubble-size:105.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:26.43%;--bubble-y:67.82%;--bubble-size:179.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:28.33%;--bubble-y:89.38%;--bubble-size:65.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:25.78%;--bubble-y:46.42%;--bubble-size:27.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:30.05%;--bubble-y:34.12%;--bubble-size:270.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:37.81%;--bubble-y:18.74%;--bubble-size:38.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:39.58%;--bubble-y:52.15%;--bubble-size:183.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:35.6%;--bubble-y:71.25%;--bubble-size:34px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:41.48%;--bubble-y:89.12%;--bubble-size:108px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:49.4%;--bubble-y:60.32%;--bubble-size:166px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:47.24%;--bubble-y:78.8%;--bubble-size:36.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:45.21%;--bubble-y:39.58%;--bubble-size:36.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:49.95%;--bubble-y:21.45%;--bubble-size:177.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:47.6%;--bubble-y:1.84%;--bubble-size:86px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:52.81%;--bubble-y:.72%;--bubble-size:112.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:54.95%;--bubble-y:72.63%;--bubble-size:98px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:61.33%;--bubble-y:86.93%;--bubble-size:304px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:61.95%;--bubble-y:50.2%;--bubble-size:272px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:56.48%;--bubble-y:30.64%;--bubble-size:113.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:59.06%;--bubble-y:10.01%;--bubble-size:113.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:64.58%;--bubble-y:17.16%;--bubble-size:63.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:64.69%;--bubble-y:0%;--bubble-size:45.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:70.76%;--bubble-y:8.12%;--bubble-size:124px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:63.7%;--bubble-y:28.55%;--bubble-size:185.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:66.25%;--bubble-y:64.25%;--bubble-size:60.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:74.48%;--bubble-y:77.43%;--bubble-size:372px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:67.53%;--bubble-y:44.94%;--bubble-size:110px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:71.04%;--bubble-y:31.56%;--bubble-size:88px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:77.21%;--bubble-y:30.44%;--bubble-size:278.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:78.26%;--bubble-y:17.16%;--bubble-size:198.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:86.61%;--bubble-y:19.2%;--bubble-size:46.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:85.86%;--bubble-y:6.03%;--bubble-size:74.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:92.14%;--bubble-y:21.25%;--bubble-size:120px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:87.99%;--bubble-y:39.33%;--bubble-size:270px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:94.92%;--bubble-y:43.11%;--bubble-size:136.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:96.43%;--bubble-y:15.53%;--bubble-size:43.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:93.39%;--bubble-y:1.48%;--bubble-size:90px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:92.79%;--bubble-y:74.87%;--bubble-size:154px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:85.83%;--bubble-y:80.34%;--bubble-size:35.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:76.22%;--bubble-y:93.72%;--bubble-size:35.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:93.78%;--bubble-y:61.7%;--bubble-size:58.67px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:85.1%;--bubble-y:98.57%;--bubble-size:100px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:92.03%;--bubble-y:98.67%;--bubble-size:73.33px;--bubble-opacity:.72;"></div>
+<div class="code-bg-bubble" style="--bubble-x:95.99%;--bubble-y:89.43%;--bubble-size:74px;--bubble-opacity:.72;"></div>
+</div>
+
+<div id="profile-editor">
+<div class="editor-scrollbar" aria-hidden="true">
+<div class="editor-scrollbar-thumb"></div>
+</div>
+<h2><span class="editor-title-wrap"><img src="https://i.ibb.co/RG1vRfvP/friskyeditor.gif" alt="Frisky Editor"><span class="editor-version">v0.3</span></span><span class="editor-for">For <span class="editor-name">Kiko Furukawa</span></span></h2>
+
+<h3>Background Option</h3>
+<div class="background-option-list">
+<button type="button" data-background-option="default">Default</button>
+<button type="button" data-background-option="code">Enhanced</button>
+<button type="button" data-background-option="code-animated" class="is-active">Enhanced (Animated)</button>
+<button type="button" data-background-option="custom">Custom</button>
+</div>
+<label class="editor-reveal" data-background-detail="custom" hidden>Background image URL
+<input type="url" data-image-input="body.background" data-default-url="https://i.ibb.co/LCm8Byd/kikoprofilebg.jpg" value="https://i.ibb.co/LCm8Byd/kikoprofilebg.jpg">
+</label>
+<input type="checkbox" id="animated-bubbles-toggle" checked hidden>
+
+<h3>Sidebar</h3>
+<label>Sidebar title
+<input type="text" data-profile-input="sidebar.title" value="Thick Rich Bitch.">
+</label>
+<label>OOC
+<textarea data-profile-input="sidebar.ooc">In-room approach is your best bet.✔
+Long term adored. Not into one and done scenes.✔
+Right to refuse or stop RPs. Don't be a creep.✔
+Darker themes appreciated.✔
+Don't expect smut instantly.✔</textarea>
+</label>
+<label>Typist info
+<textarea data-profile-input="sidebar.typist">✔ Female✔ Outside contact is earned✔ You can contact me on Discord if it is earned here.✔ IC isn't OOC. Character can be rude; typist is pretty chill.</textarea>
+</label>
+
+<h3>Main Info</h3>
+<label>Profile heading
+<input type="text" data-profile-input="main.heading" value="I drive 'em crazy, baby.">
+</label>
+<label>Name
+<input type="text" data-profile-input="stats.name" value="Kiko Furukawa">
+</label>
+<label>Moniker
+<input type="text" data-profile-input="stats.moniker" value="Kilo">
+</label>
+<label>Gender
+<input type="text" data-profile-input="stats.gender" value="Female">
+</label>
+<label>Age
+<input type="text" data-profile-input="stats.age" value="23 yrs.">
+</label>
+<label>Species
+<input type="text" data-profile-input="stats.species" value="Shiba Inu">
+</label>
+<label>Personality
+<textarea data-profile-input="main.personality">Write smth about her personality and behaviors here.</textarea>
+</label>
+<label>Height
+<input type="text" data-profile-input="stats.height" value="5'9&quot;">
+</label>
+<label>Weight
+<input type="text" data-profile-input="stats.weight" value="205 lbs.">
+</label>
+<label>Orientation
+<input type="text" data-profile-input="stats.orientation" value="Hetero">
+</label>
+<label>Marital
+<input type="text" data-profile-input="stats.marital" value="Single">
+</label>
+<label>Likes
+<input type="text" data-profile-input="stats.likes" value="Traveling">
+</label>
+
+<h3>History</h3>
+<label>History heading
+<input type="text" data-profile-input="history.heading" value="the adventures of kilo">
+</label>
+<label>History text
+<textarea data-profile-input="history.body">Hailing from Japan, the Shiba found herself in America at the age of eight years old, with a single parent. Her mother's passing was from a botched robbery, leaving the Shiba with trauma that was never fully solved. Once living in America, she would bounce from state to state, starting off in New York.
+
+At the age of fourteen she would begin to dibble and dabble in street life. Once the discovery was made by her father, she was placed in foster care, which slowed her down-But didn't stop her. Now at the age of 23, she has multiple connections built for practically anything she needs, and if she doesn't have a connection, she sure as hell has the money to get what she needs.</textarea>
+</label>
+
+<h3>Trivia</h3>
+<label>Trivia heading
+<input type="text" data-profile-input="trivia.heading" value="Trivia">
+</label>
+<label>Trivia 1
+<input type="text" data-profile-input="trivia.1" value="Accidentally made Jahseh develop anxiety because he has an uneven amount of spots on his ears.">
+</label>
+<label>Trivia 2
+<input type="text" data-profile-input="trivia.2" value="Avid rollerblader.">
+</label>
+<label>Trivia 3
+<input type="text" data-profile-input="trivia.3" value="Sports enjoyer.">
+</label>
+<label>Trivia 4
+<input type="text" data-profile-input="trivia.4" value="Yoga practitioner.">
+</label>
+<label>Trivia 5
+<input type="text" data-profile-input="trivia.5" value="Last name translates to 'Old River'.">
+</label>
+<label>Trivia 6
+<input type="text" data-profile-input="trivia.6" value="Is a Libra.">
+</label>
+<label>Trivia 7
+<input type="text" data-profile-input="trivia.7" value="Favorite food: Spicy Sushi, least favorite is plain rice.">
+</label>
+<label>Trivia 8
+<input type="text" data-profile-input="trivia.8" value="Plushie collector.">
+</label>
+
+<h3>Relationships</h3>
+<label>Relationships heading
+<input type="text" data-profile-input="relationships.heading" value="relationships">
+</label>
+
+<h3>Relationship 1</h3>
+<label>Relationship 1 image URL
+<input type="url" data-image-input="relationships.1.image" data-default-url="https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png" value="https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png">
+</label>
+<label>Relationship 1 friend profile URL
+<input type="url" data-relationship-link-input="1" value="URLHERE">
+</label>
+<button type="button" data-image-reset="relationships.1.image">Revert relationship 1 image</button>
+<details class="relationship-image-advanced">
+<summary>Advanced image display</summary>
+<label>Image size
+<input type="range" min="0.2" max="4" step="0.05" value="1" data-relationship-image-control="scale" data-relationship-index="1">
+<span class="relationship-slider-value" data-relationship-image-value="scale" data-relationship-index="1">1x</span>
+</label>
+<label>Horizontal position
+<input type="range" min="-100" max="200" value="50" data-relationship-image-control="x" data-relationship-index="1">
+<span class="relationship-slider-value" data-relationship-image-value="x" data-relationship-index="1">50%</span>
+</label>
+<label>Vertical position
+<input type="range" min="-100" max="200" value="50" data-relationship-image-control="y" data-relationship-index="1">
+<span class="relationship-slider-value" data-relationship-image-value="y" data-relationship-index="1">50%</span>
+</label>
+</details>
+<label>Relationship 1 name
+<input type="text" data-profile-input="relationships.1.name" value="words words">
+</label>
+<label>Relationship 1 age
+<input type="text" data-profile-input="relationships.1.age" value="words words">
+</label>
+<label>Relationship 1 location
+<input type="text" data-profile-input="relationships.1.location" value="words words">
+</label>
+<label>Relationship 1 history
+<input type="text" data-profile-input="relationships.1.history" value="words words">
+</label>
+<label>Relationship 1 blurb
+<textarea data-profile-input="relationships.1.blurb">or you can just put a blurb about them here.</textarea>
+</label>
+
+<h3>Relationship 2</h3>
+<label>Relationship 2 image URL
+<input type="url" data-image-input="relationships.2.image" data-default-url="https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png" value="https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png">
+</label>
+<label>Relationship 2 friend profile URL
+<input type="url" data-relationship-link-input="2" value="URLHERE">
+</label>
+<button type="button" data-image-reset="relationships.2.image">Revert relationship 2 image</button>
+<details class="relationship-image-advanced">
+<summary>Advanced image display</summary>
+<label>Image size
+<input type="range" min="0.2" max="4" step="0.05" value="1" data-relationship-image-control="scale" data-relationship-index="2">
+<span class="relationship-slider-value" data-relationship-image-value="scale" data-relationship-index="2">1x</span>
+</label>
+<label>Horizontal position
+<input type="range" min="-100" max="200" value="50" data-relationship-image-control="x" data-relationship-index="2">
+<span class="relationship-slider-value" data-relationship-image-value="x" data-relationship-index="2">50%</span>
+</label>
+<label>Vertical position
+<input type="range" min="-100" max="200" value="50" data-relationship-image-control="y" data-relationship-index="2">
+<span class="relationship-slider-value" data-relationship-image-value="y" data-relationship-index="2">50%</span>
+</label>
+</details>
+<label>Relationship 2 name
+<input type="text" data-profile-input="relationships.2.name" value="words words">
+</label>
+<label>Relationship 2 age
+<input type="text" data-profile-input="relationships.2.age" value="words words">
+</label>
+<label>Relationship 2 location
+<input type="text" data-profile-input="relationships.2.location" value="words words">
+</label>
+<label>Relationship 2 history
+<input type="text" data-profile-input="relationships.2.history" value="words words">
+</label>
+<label>Relationship 2 blurb
+<textarea data-profile-input="relationships.2.blurb">or you can just put a blurb about them here.</textarea>
+</label>
+
+<h3>Relationship 3</h3>
+<label>Relationship 3 image URL
+<input type="url" data-image-input="relationships.3.image" data-default-url="https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png" value="https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png">
+</label>
+<label>Relationship 3 friend profile URL
+<input type="url" data-relationship-link-input="3" value="URLHERE">
+</label>
+<button type="button" data-image-reset="relationships.3.image">Revert relationship 3 image</button>
+<details class="relationship-image-advanced">
+<summary>Advanced image display</summary>
+<label>Image size
+<input type="range" min="0.2" max="4" step="0.05" value="1" data-relationship-image-control="scale" data-relationship-index="3">
+<span class="relationship-slider-value" data-relationship-image-value="scale" data-relationship-index="3">1x</span>
+</label>
+<label>Horizontal position
+<input type="range" min="-100" max="200" value="50" data-relationship-image-control="x" data-relationship-index="3">
+<span class="relationship-slider-value" data-relationship-image-value="x" data-relationship-index="3">50%</span>
+</label>
+<label>Vertical position
+<input type="range" min="-100" max="200" value="50" data-relationship-image-control="y" data-relationship-index="3">
+<span class="relationship-slider-value" data-relationship-image-value="y" data-relationship-index="3">50%</span>
+</label>
+</details>
+<label>Relationship 3 name
+<input type="text" data-profile-input="relationships.3.name" value="words words">
+</label>
+<label>Relationship 3 age
+<input type="text" data-profile-input="relationships.3.age" value="words words">
+</label>
+<label>Relationship 3 location
+<input type="text" data-profile-input="relationships.3.location" value="words words">
+</label>
+<label>Relationship 3 history
+<input type="text" data-profile-input="relationships.3.history" value="words words">
+</label>
+<label>Relationship 3 blurb
+<textarea data-profile-input="relationships.3.blurb">or you can just put a blurb about them here.</textarea>
+</label>
+<button type="button" id="add-relationship">Add another relationship</button>
+
+<h3>Images</h3>
+<label>Sidebar title texture URL
+<input type="url" data-image-input="title.texture" data-default-url="https://i.ibb.co/rbSJ9Q3/kikosmallmenutextbg.jpg" value="https://i.ibb.co/bj1qghG9/petals1.gif">
+</label>
+<div class="texture-preset-row" data-texture-presets="title.texture">
+<button type="button" data-title-texture-preset="default">Default</button>
+<button type="button" data-title-texture-preset="enhanced">Enhanced</button>
+<button type="button" data-title-texture-preset="custom">Custom</button>
+</div>
+<label>Sidebar icon URL
+<input type="url" data-image-input="sidebar.icon" data-default-url="https://i.giphy.com/Yg12tqyJwylsk.webp" value="https://i.ibb.co/wZhRsWYf/flower.gif">
+</label>
+<div class="texture-preset-row" data-icon-presets="sidebar.icon">
+<button type="button" data-sidebar-icon-preset="default">Default</button>
+<button type="button" data-sidebar-icon-preset="enhanced">Enhanced</button>
+<button type="button" data-sidebar-icon-preset="custom">Custom</button>
+</div>
+<label>Main image URL
+<input type="url" data-image-input="main.image" data-default-url="https://i.ibb.co/ScK91hV/kikomain.png" value="https://i.ibb.co/ScK91hV/kikomain.png">
+</label>
+<button type="button" data-image-reset="main.image">Revert main image</button>
+<label>Credit badge URL
+<input type="url" data-image-input="credit.badge" data-default-url="https://i.imgur.com/MH0XSqe.png" value="https://i.imgur.com/MH0XSqe.png">
+</label>
+<button type="button" data-image-reset="credit.badge">Revert credit badge</button>
+<label><input type="checkbox" id="credit-fade-toggle" checked>Fade credit badge until hover</label>
+<button type="button" id="export-profile">Export</button>
+</div>
+
+<div id="export-sidebar" aria-hidden="true">
+<h2>Export Profile</h2>
+<p>Copy each section into the respective section of your profile editor.</p>
+<label>JavaScript
+<button type="button" class="copy-export" data-copy-export="javascript" title="Copy JavaScript">⧉</button>
+<textarea id="export-javascript" readonly></textarea>
+</label>
+<label>CSS
+<button type="button" class="copy-export" data-copy-export="css" title="Copy CSS">⧉</button>
+<textarea id="export-css" readonly></textarea>
+</label>
+<label>HTML
+<button type="button" class="copy-export" data-copy-export="html" title="Copy HTML">⧉</button>
+<textarea id="export-html" readonly></textarea>
+</label>
+<button type="button" id="back-to-editor">Back to editor</button>
+</div>
+
+<div id="bitch" oncontextmenu="if (!window.__cfRLUnblockHandlers) return false; return false;" data-cf-modified-e6562ff63dd85f30bf5d8e9b-="">
+<div id="blanket"><div id="blanket1"><div id="blanket2"><div id="blanket3"><div id="blanket4">
+<a href= "https://roleplay.chat/profile.php?user=UFO" target="_blank"><div id= "credit" data-image-key="credit.badge"></div></a> 
+ 
+<div id="sidebar1">
+<div id="title" data-edit-key="sidebar.title" data-image-key="title.texture">Thick Rich Bitch.</div>
+<div id="desc">
+<h3>OOC</h3>
+<div data-edit-key="sidebar.ooc">
+In-room approach is your best bet.✔ 
+Long term adored. Not into one and done scenes.✔ 
+Right to refuse or stop RPs. Don't be a creep.✔
+Darker themes appreciated.✔
+Don't expect smut instantly.✔
+</div><br>
+<a target="_blank" href="https://ibb.co/album/w73F2d">Extra pics✔</a>
+
+<h3>Typist Info</h3>
+<div data-edit-key="sidebar.typist">
+✔ Female✔ Outside contact is earned✔ You can contact me on Discord if it is earned here.✔ IC isn't OOC. Character can be rude; typist is pretty chill.
+</div>
+</div>
+<div class="icon" data-image-key="sidebar.icon"></div>
+</div>
+ 
+<div id="sidebar2">
+<div id="links">
+<a href="#blanket1"><div class="link">History</div></a>
+<a href="#blanket2"><div class="link">Headcanons</div></a>
+<a href="#blanket3"><div class="link">Relationships</div></a>
+<a href="#"><div class="link">Reset</div></a>
+</div>
+</div>
+ 
+<div id= "container">
+<div class="mainimg" data-image-key="main.image"></div>
+<div id="boxbg">
+<div id= "box">
+<h1 data-edit-key="main.heading">I drive 'em crazy, baby.</h1>
+<font style=float:left><b>Name</b> </font> <font style=float:right data-edit-key="stats.name">Kiko Furukawa</font><br>
+<font style=float:left><b>Moniker</b> </font> <font style=float:right data-edit-key="stats.moniker">Kilo</font><br>
+<font style=float:left><b>Gender</b> </font> <font style=float:right data-edit-key="stats.gender">Female</font><br>
+<font style=float:left><b>Age</b> </font> <font style=float:right data-edit-key="stats.age">23 yrs.</font><br>
+<font style=float:left><b>Species</b> </font> <font style=float:right data-edit-key="stats.species">Shiba Inu </font><br>
+<h2>Personality.</h2>
+<div data-edit-key="main.personality">
+Write smth about her personality and behaviors here.
+</div>
+<br><br>
+<font style=float:left><b>Height</b> </font> <font style=float:right data-edit-key="stats.height">5'9"</font><br>
+<font style=float:left><b>Weight</b> </font> <font style=float:right data-edit-key="stats.weight">205 lbs.</font><br>
+<font style=float:left><b>Orientation</b> </font> <font style=float:right data-edit-key="stats.orientation">Hetero</font><br>
+<font style=float:left><b>Marital</b> </font> <font style=float:right data-edit-key="stats.marital">Single</font><br>
+<font style=float:left><b>Likes</b> </font> <font style=float:right data-edit-key="stats.likes">Traveling</font><br>
+</div>
+ 
+<div id="history">
+<h1 data-edit-key="history.heading">the adventures of kilo</h1>
+<div data-edit-key="history.body">
+Hailing from Japan, the Shiba found herself in America at the age of eight years old, with a single parent. Her mother's passing was from a botched robbery, leaving the Shiba with trauma that was never fully solved. Once living in America, she would bounce from state to state, starting off in New York. <br><br>At the age of fourteen she would begin to dibble and dabble in street life. Once the discovery was made by her father, she was placed in foster care, which slowed her down-But didn't stop her. Now at the age of 23, she has multiple connections built for practically anything she needs, and if she doesn't have a connection, she sure as hell has the money to get what she needs.
+</div>
+</div>
+ 
+<div id="headcanons">
+<h1 data-edit-key="trivia.heading">Trivia</h1>
+<li data-edit-key="trivia.1">Accidentally made Jahseh develop anxiety because he has an uneven amount of spots on his ears.</li>
+<li data-edit-key="trivia.2">Avid rollerblader.</li>
+<li data-edit-key="trivia.3">Sports enjoyer.</li>
+<li data-edit-key="trivia.4">Yoga practitioner.</li>
+<li data-edit-key="trivia.5">Last name translates to 'Old River'.</li>
+<li data-edit-key="trivia.6">Is a Libra.</li>
+<li data-edit-key="trivia.7">Favorite food: Spicy Sushi, least favorite is plain rice.</li>
+<li data-edit-key="trivia.8">Plushie collector.</li>
+</div>
+
+ 
+<div id="relationships">
+<h1 data-edit-key="relationships.heading">relationships</h1>
+<div class="rel">
+<a target="_blank" href="URLHERE"><img data-image-key="relationships.1.image" src="https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png"></a>
+<div class="wrds">
+<div class="t">
+<li><b>name</b> <span data-edit-key="relationships.1.name">words words</span></li>
+<li><b>age</b> <span data-edit-key="relationships.1.age">words words</span></li>
+<li><b>location</b> <span data-edit-key="relationships.1.location">words words</span></li>
+<li><b>history</b> <span data-edit-key="relationships.1.history">words words</span></li>
+<div data-edit-key="relationships.1.blurb">or you can just put a blurb about them here.</div>
+</div>
+</div>
+</div>
+ 
+<div class="rel">
+<a target="_blank" href="URLHERE"><img data-image-key="relationships.2.image" src="https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png"></a>
+<div class="wrds">
+<div class="t">
+<li><b>name</b> <span data-edit-key="relationships.2.name">words words</span></li>
+<li><b>age</b> <span data-edit-key="relationships.2.age">words words</span></li>
+<li><b>location</b> <span data-edit-key="relationships.2.location">words words</span></li>
+<li><b>history</b> <span data-edit-key="relationships.2.history">words words</span></li>
+<div data-edit-key="relationships.2.blurb">or you can just put a blurb about them here.</div>
+</div>
+</div>
+</div>
+ 
+<div class="rel">
+<a target="_blank" href="URLHERE"><img data-image-key="relationships.3.image" src="https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png"></a>
+<div class="wrds">
+<div class="t">
+<li><b>name</b> <span data-edit-key="relationships.3.name">words words</span></li>
+<li><b>age</b> <span data-edit-key="relationships.3.age">words words</span></li>
+<li><b>location</b> <span data-edit-key="relationships.3.location">words words</span></li>
+<li><b>history</b> <span data-edit-key="relationships.3.history">words words</span></li>
+<div data-edit-key="relationships.3.blurb">or you can just put a blurb about them here.</div>
+</div>
+</div>
+</div>
+</div>
+ 
+</div>
+</div>
+
+<script>
+const particleLoop = { id: null, items: [] };
+
+function runParticleLoop() {
+  if (particleLoop.id) return;
+  function step() {
+    if (particleLoop.items.length === 0) {
+      particleLoop.id = null;
+      return;
+    }
+    for (let i = particleLoop.items.length - 1; i >= 0; i--) {
+      const p = particleLoop.items[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += p.gravity;
+      p.life -= p.decay;
+      if (p.life <= 0) {
+        p.el.remove();
+        particleLoop.items.splice(i, 1);
+        continue;
+      }
+      p.el.style.transform = `translate(${p.x}px, ${p.y}px) scale(${p.life})`;
+      p.el.style.opacity = p.life * 0.6;
+    }
+    particleLoop.id = requestAnimationFrame(step);
+  }
+  particleLoop.id = requestAnimationFrame(step);
+}
+
+function spawnBubblePopParticles(bubbleEl) {
+  const rect = bubbleEl.getBoundingClientRect();
+  const cx = rect.left + rect.width / 2;
+  const cy = rect.top + rect.height / 2;
+  const r = rect.width / 2;
+
+  const count = Math.floor(18 + Math.random() * 6);
+  for (let i = 0; i < count; i++) {
+    const angle = (i / count) * Math.PI * 2 + (Math.random() - 0.5) * 0.4;
+    const speedScale = 0.75 + Math.min(r, 220) / 220 * 0.5;
+    const speed = (2 + Math.random() * 4) * speedScale;
+    const size = 4 + Math.random() * 5;
+    const el = document.createElement('div');
+    el.style.cssText = `
+      position: fixed;
+      left: ${cx}px;
+      top: ${cy}px;
+      width: ${size}px;
+      height: ${size}px;
+      border-radius: 50%;
+      background: white;
+      opacity: 0.6;
+      pointer-events: none;
+      transform-origin: center;
+      z-index: 1;
+    `;
+    document.body.appendChild(el);
+    particleLoop.items.push({
+      el, x: 0, y: 0,
+      vx: Math.cos(angle) * speed,
+      vy: Math.sin(angle) * speed - 1.5,
+      gravity: 0.18,
+      life: 1.0,
+      decay: 0.018 + Math.random() * 0.012
+    });
+  }
+
+  runParticleLoop();
+}
+
+const escapeProfileText = (value) => value
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&#039;');
+
+const bindEditorField = (field) => {
+  field.addEventListener('keydown', (event) => {
+    if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'a') {
+      event.preventDefault();
+      event.stopPropagation();
+      field.select();
+    }
+  });
+};
+
+const bindProfileInput = (input) => {
+  const target = document.querySelector(`[data-edit-key="${input.dataset.profileInput}"]`);
+
+  if (!target) {
+    return;
+  }
+
+  const updateTarget = () => {
+    if (input.tagName === 'TEXTAREA') {
+      target.innerHTML = escapeProfileText(input.value).replace(/\n/g, '<br>');
+      return;
+    }
+
+    target.textContent = input.value;
+  };
+
+  input.addEventListener('input', updateTarget);
+};
+
+document.querySelectorAll('#profile-editor input, #profile-editor textarea').forEach(bindEditorField);
+document.querySelectorAll('[data-profile-input]').forEach(bindProfileInput);
+
+const defaultBackgroundImage = 'https://i.ibb.co/LCm8Byd/kikoprofilebg.jpg';
+const codeOnlyBackground = `
+  radial-gradient(circle at 50% 22%, rgba(255, 190, 220, .75) 0%, rgba(255, 190, 220, 0) 38%),
+  radial-gradient(circle at 50% 52%, rgba(255, 248, 200, .85) 0%, rgba(255, 248, 200, 0) 34%),
+  radial-gradient(circle at 62% 66%, rgba(205, 250, 230, .65) 0%, rgba(205, 250, 230, 0) 32%),
+  radial-gradient(circle at 78% 95%, rgba(205, 190, 255, .5) 0%, rgba(205, 190, 255, 0) 30%),
+  linear-gradient(
+    to bottom,
+    #cfb7e6 0%,
+    #e6c0e6 10%,
+    #f3cae2 20%,
+    #f6d7df 30%,
+    #f7e6dc 40%,
+    #f5efda 50%,
+    #e7ede4 60%,
+    #cde8f5 70%,
+    #bbdffd 80%,
+    #b1d2fd 90%,
+    #adc2fd 100%
+  )`;
+
+const getBackgroundOption = () => document.querySelector('[data-background-option].is-active')?.dataset.backgroundOption || 'code-animated';
+
+const setEditorReveal = (control, isVisible) => {
+  clearTimeout(Number(control.dataset.revealTimer));
+
+  if (isVisible) {
+    control.hidden = false;
+    requestAnimationFrame(() => {
+      control.classList.add('is-visible');
+    });
+    return;
+  }
+
+  control.classList.remove('is-visible');
+  control.dataset.revealTimer = window.setTimeout(() => {
+    control.hidden = true;
+  }, 280);
+};
+
+const updateBackgroundOptionControls = (option) => {
+  document.querySelectorAll('[data-background-detail]').forEach((control) => {
+    setEditorReveal(control, control.dataset.backgroundDetail === option);
+  });
+
+  document.querySelectorAll('[data-background-option]').forEach((button) => {
+    button.classList.toggle('is-active', button.dataset.backgroundOption === option);
+  });
+};
+
+const setCodeBackgroundBubbles = (isVisible) => {
+  document.body.classList.toggle('profile-code-background', isVisible);
+};
+
+const setBackgroundOption = (option) => {
+  updateBackgroundOptionControls(option);
+  setCodeBackgroundBubbles(option === 'code' || option === 'code-animated');
+
+  if (animatedBubblesToggle) {
+    animatedBubblesToggle.checked = option === 'code-animated';
+    setAnimatedCodeBubbles(animatedBubblesToggle.checked);
+  }
+
+  if (option === 'default') {
+    document.body.style.backgroundImage = `url('${defaultBackgroundImage}')`;
+    return;
+  }
+
+  if (option === 'code' || option === 'code-animated') {
+    document.body.style.backgroundImage = codeOnlyBackground;
+    return;
+  }
+
+  const input = document.querySelector('[data-image-input="body.background"]');
+  input.focus();
+  input.select();
+  document.body.style.backgroundImage = `url('${input.value}')`;
+};
+
+const applyProfileImage = (key, url) => {
+  if (key === 'body.background') {
+    setBackgroundOption('custom');
+    document.body.style.backgroundImage = `url('${url}')`;
+    return;
+  }
+
+  const target = document.querySelector(`[data-image-key="${key}"]`);
+
+  if (!target) {
+    return;
+  }
+
+  if (target.tagName === 'IMG') {
+    target.src = url;
+    if (key.match(/^relationships\.\d+\.image$/)) {
+      target.addEventListener('load', () => {
+        refreshRelationshipImageCanvas(key.match(/^relationships\.(\d+)\.image$/)[1]);
+      }, { once: true });
+    }
+    return;
+  }
+
+  target.style.backgroundImage = `url('${url}')`;
+  if (key === 'sidebar.icon') {
+    target.classList.toggle('is-enhanced-icon', url.trim() === sidebarIconUrls.enhanced);
+  }
+};
+
+const clearImageHighlight = () => {
+  document.body.classList.remove('profile-background-highlight');
+  document.querySelectorAll('.profile-image-highlight').forEach((target) => {
+    target.classList.remove('profile-image-highlight');
+  });
+};
+
+const highlightProfileImage = (key) => {
+  clearImageHighlight();
+
+  if (key === 'body.background') {
+    document.body.classList.add('profile-background-highlight');
+    return;
+  }
+
+  const target = document.querySelector(`[data-image-key="${key}"]`);
+
+  if (target) {
+    target.classList.add('profile-image-highlight');
+  }
+};
+
+const bindImageInput = (input) => {
+  input.addEventListener('input', () => {
+    applyProfileImage(input.dataset.imageInput, input.value);
+    if (input.dataset.imageInput === 'title.texture') {
+      updateTitleTexturePreset(input.value);
+    }
+    if (input.dataset.imageInput === 'sidebar.icon') {
+      updateSidebarIconPreset(input.value);
+    }
+  });
+
+  input.addEventListener('focus', () => {
+    highlightProfileImage(input.dataset.imageInput);
+  });
+
+  input.addEventListener('blur', clearImageHighlight);
+};
+
+const titleTextureUrls = {
+  default: 'https://i.ibb.co/rbSJ9Q3/kikosmallmenutextbg.jpg',
+  enhanced: 'https://i.ibb.co/bj1qghG9/petals1.gif'
+};
+
+const sidebarIconUrls = {
+  default: 'https://i.giphy.com/Yg12tqyJwylsk.webp',
+  enhanced: 'https://i.ibb.co/wZhRsWYf/flower.gif'
+};
+
+const getImagePreset = (url, urls) => {
+  const trimmedUrl = url.trim();
+
+  if (trimmedUrl === urls.default) {
+    return 'default';
+  }
+
+  if (trimmedUrl === urls.enhanced) {
+    return 'enhanced';
+  }
+
+  return 'custom';
+};
+
+const updateTitleTexturePreset = (url) => {
+  const activePreset = getImagePreset(url, titleTextureUrls);
+
+  document.querySelectorAll('[data-title-texture-preset]').forEach((button) => {
+    button.classList.toggle('is-active', button.dataset.titleTexturePreset === activePreset);
+  });
+};
+
+const updateSidebarIconPreset = (url) => {
+  const activePreset = getImagePreset(url, sidebarIconUrls);
+
+  document.querySelectorAll('[data-sidebar-icon-preset]').forEach((button) => {
+    button.classList.toggle('is-active', button.dataset.sidebarIconPreset === activePreset);
+  });
+};
+
+const bindTitleTexturePreset = (button) => {
+  button.addEventListener('click', () => {
+    const input = document.querySelector('[data-image-input="title.texture"]');
+    const preset = button.dataset.titleTexturePreset;
+
+    if (!input) {
+      return;
+    }
+
+    if (preset === 'custom') {
+      if (!button.classList.contains('is-active')) {
+        input.focus();
+        input.select();
+      }
+      return;
+    }
+
+    if (preset !== 'custom') {
+      input.value = titleTextureUrls[preset];
+      applyProfileImage('title.texture', input.value);
+    }
+
+    updateTitleTexturePreset(input.value);
+  });
+};
+
+const bindSidebarIconPreset = (button) => {
+  button.addEventListener('click', () => {
+    const input = document.querySelector('[data-image-input="sidebar.icon"]');
+    const preset = button.dataset.sidebarIconPreset;
+
+    if (!input) {
+      return;
+    }
+
+    if (preset === 'custom') {
+      if (!button.classList.contains('is-active')) {
+        input.focus();
+        input.select();
+      }
+      return;
+    }
+
+    input.value = sidebarIconUrls[preset];
+    applyProfileImage('sidebar.icon', input.value);
+    updateSidebarIconPreset(input.value);
+  });
+};
+
+const bindImageReset = (button) => {
+  button.addEventListener('click', () => {
+    const input = document.querySelector(`[data-image-input="${button.dataset.imageReset}"]`);
+
+    if (!input) {
+      return;
+    }
+
+    input.value = input.dataset.defaultUrl;
+    applyProfileImage(input.dataset.imageInput, input.value);
+  });
+};
+
+document.querySelectorAll('[data-background-option]').forEach((button) => {
+  button.addEventListener('click', () => {
+    setBackgroundOption(button.dataset.backgroundOption);
+  });
+});
+
+const animatedBubblesToggle = document.querySelector('#animated-bubbles-toggle');
+const codeBackgroundBubbles = [...document.querySelectorAll('.code-bg-bubble')];
+const bubbleRespawnTimers = new Map();
+const bubbleMoveTimers = new Map();
+const randomBetween = (min, max) => Math.random() * (max - min) + min;
+const clampPercent = (value) => Math.max(0, Math.min(100, value));
+
+const bubbleSpeed = 4.5;
+
+const setBubbleMoveDuration = (bubble) => {
+  const baseDuration = parseFloat(bubble.dataset.moveDuration || randomBetween(30, 54));
+  const nextDuration = baseDuration / bubbleSpeed;
+
+  bubble.dataset.moveDuration = baseDuration;
+  bubble.style.setProperty('--move-duration', `${nextDuration.toFixed(2)}s`);
+  return nextDuration;
+};
+
+const stopBubbleMove = (bubble) => {
+  clearTimeout(bubbleMoveTimers.get(bubble));
+  bubbleMoveTimers.delete(bubble);
+};
+
+const moveBubbleRandomly = (bubble) => {
+  if (!animatedBubblesToggle.checked || bubble.classList.contains('is-popping') || bubble.classList.contains('is-respawning') || bubble.style.display === 'none') {
+    return;
+  }
+
+  const currentX = parseFloat(bubble.style.getPropertyValue('--bubble-x'));
+  const currentY = parseFloat(bubble.style.getPropertyValue('--bubble-y'));
+  const nextX = clampPercent(currentX + randomBetween(-8, 8));
+  const nextY = clampPercent(currentY + randomBetween(-6, 6));
+  const duration = setBubbleMoveDuration(bubble);
+
+  bubble.style.setProperty('--bubble-x', `${nextX.toFixed(2)}%`);
+  bubble.style.setProperty('--bubble-y', `${nextY.toFixed(2)}%`);
+  bubbleMoveTimers.set(bubble, window.setTimeout(() => {
+    moveBubbleRandomly(bubble);
+  }, (duration * 1000) + randomBetween(500, 2000)));
+};
+
+const scheduleBubbleMove = (bubble, delay = randomBetween(200, 1400)) => {
+  stopBubbleMove(bubble);
+  bubbleMoveTimers.set(bubble, window.setTimeout(() => {
+    moveBubbleRandomly(bubble);
+  }, delay));
+};
+
+const createBubblePopEffect = (bubble) => {
+  const rect = bubble.getBoundingClientRect();
+  const size = Math.max(rect.width, rect.height);
+  const effect = document.createElement('div');
+  const particleCount = Math.round(randomBetween(8, 14));
+
+  effect.className = 'bubble-pop-effect';
+  effect.style.setProperty('--pop-x', `${rect.left + rect.width / 2}px`);
+  effect.style.setProperty('--pop-y', `${rect.top + rect.height / 2}px`);
+  effect.style.setProperty('--pop-size', `${size}px`);
+
+  for (let index = 0; index < particleCount; index += 1) {
+    const particle = document.createElement('span');
+    const angle = randomBetween(0, Math.PI * 2);
+    const distance = randomBetween(size * .12, size * .34);
+    const particleSize = randomBetween(2, 5);
+
+    particle.className = 'bubble-pop-particle';
+    particle.style.setProperty('--particle-x', `${Math.cos(angle) * distance}px`);
+    particle.style.setProperty('--particle-y', `${Math.sin(angle) * distance}px`);
+    particle.style.setProperty('--particle-size', `${particleSize}px`);
+    particle.style.setProperty('--particle-duration', `${randomBetween(.3, .5).toFixed(2)}s`);
+    effect.appendChild(particle);
+  }
+
+  document.body.appendChild(effect);
+  window.setTimeout(() => {
+    effect.remove();
+  }, 560);
+};
+
+const resetCodeBackgroundBubble = (bubble) => {
+  clearTimeout(bubbleRespawnTimers.get(bubble));
+  bubbleRespawnTimers.delete(bubble);
+  stopBubbleMove(bubble);
+  bubble.classList.remove('is-popping', 'is-respawning');
+  bubble.style.display = '';
+  bubble.style.setProperty('--bubble-x', bubble.dataset.originalX);
+  bubble.style.setProperty('--bubble-y', bubble.dataset.originalY);
+};
+
+const setAnimatedCodeBubbles = (isAnimated) => {
+  document.body.classList.toggle('profile-animated-bubbles', isAnimated);
+
+  codeBackgroundBubbles.forEach((bubble) => {
+    if (isAnimated) {
+      bubble.dataset.moveDuration = randomBetween(30, 54).toFixed(2);
+      setBubbleMoveDuration(bubble);
+      scheduleBubbleMove(bubble);
+      return;
+    }
+
+    resetCodeBackgroundBubble(bubble);
+  });
+};
+
+codeBackgroundBubbles.forEach((bubble) => {
+  bubble.dataset.originalX = bubble.style.getPropertyValue('--bubble-x');
+  bubble.dataset.originalY = bubble.style.getPropertyValue('--bubble-y');
+
+  bubble.addEventListener('click', () => {
+    if (!animatedBubblesToggle.checked || bubble.classList.contains('is-popping')) {
+      return;
+    }
+
+    stopBubbleMove(bubble);
+    bubble.classList.add('is-popping');
+    window.setTimeout(() => {
+      const bubbleEl = bubble;
+      spawnBubblePopParticles(bubbleEl);
+      bubble.style.display = 'none';
+    }, 120);
+
+    const respawnTimer = window.setTimeout(() => {
+      bubble.classList.remove('is-popping');
+
+      if (!animatedBubblesToggle.checked) {
+        resetCodeBackgroundBubble(bubble);
+        return;
+      }
+
+      bubble.style.setProperty('--bubble-x', `${randomBetween(0, 100).toFixed(2)}%`);
+      bubble.style.setProperty('--bubble-y', `${randomBetween(0, 100).toFixed(2)}%`);
+      bubble.style.display = '';
+      bubble.dataset.moveDuration = randomBetween(30, 54).toFixed(2);
+      setBubbleMoveDuration(bubble);
+      bubble.classList.remove('is-respawning');
+      void bubble.offsetWidth;
+      bubble.classList.add('is-respawning');
+      scheduleBubbleMove(bubble, 120);
+      bubble.addEventListener('animationend', () => {
+        bubble.classList.remove('is-respawning');
+      }, { once: true });
+    }, randomBetween(1000, 5000));
+
+    bubbleRespawnTimers.set(bubble, respawnTimer);
+  });
+});
+
+animatedBubblesToggle.addEventListener('change', (event) => {
+  setAnimatedCodeBubbles(event.target.checked);
+});
+
+document.querySelector('#credit-fade-toggle').addEventListener('change', (event) => {
+  document.body.classList.toggle('credit-badge-visible', !event.target.checked);
+});
+
+const relationshipDefaultImage = 'https://i.ibb.co/YDKrK1S/Screenshotedit-2024-06-25-at-10-30-31-PM.png';
+let relationshipCount = 3;
+
+const getRelationshipCard = (index) => {
+  const image = document.querySelector(`[data-image-key="relationships.${index}.image"]`);
+  return image ? image.closest('.rel') : null;
+};
+
+const getRelationshipImageControl = (index, controlName) => document.querySelector(`[data-relationship-image-control="${controlName}"][data-relationship-index="${index}"]`);
+
+const refreshRelationshipImageCanvas = (index) => {
+  const card = getRelationshipCard(index);
+  const frame = card ? card.querySelector('a') : null;
+  const image = card ? card.querySelector(`[data-image-key="relationships.${index}.image"]`) : null;
+
+  if (!card || !frame || !image) {
+    return;
+  }
+
+  const naturalWidth = image.naturalWidth || 1;
+  const naturalHeight = image.naturalHeight || 1;
+  const canvasWidth = frame.clientWidth + 4;
+  const canvasHeight = frame.clientHeight + 4;
+  const coverScale = Math.max(canvasWidth / naturalWidth, canvasHeight / naturalHeight);
+  const userScale = Number(getRelationshipImageControl(index, 'scale')?.value || 1);
+  const fittedWidth = naturalWidth * coverScale * userScale * 1.08;
+  const fittedHeight = naturalHeight * coverScale * userScale * 1.08;
+  const x = Number(getRelationshipImageControl(index, 'x')?.value || 50);
+  const y = Number(getRelationshipImageControl(index, 'y')?.value || 50);
+  const xRatio = (x + 100) / 300;
+  const yRatio = (y + 100) / 300;
+
+  card.style.setProperty('--relationship-image-width', `${fittedWidth}px`);
+  card.style.setProperty('--relationship-image-height', `${fittedHeight}px`);
+  card.style.setProperty('--relationship-image-left', `${-2 + ((canvasWidth - fittedWidth) * xRatio)}px`);
+  card.style.setProperty('--relationship-image-top', `${-2 + ((canvasHeight - fittedHeight) * yRatio)}px`);
+};
+
+const updateRelationshipPositionControls = (index, x, y) => {
+  const xControl = document.querySelector(`[data-relationship-image-control="x"][data-relationship-index="${index}"]`);
+  const yControl = document.querySelector(`[data-relationship-image-control="y"][data-relationship-index="${index}"]`);
+
+  if (xControl) {
+    xControl.value = x;
+  }
+
+  if (yControl) {
+    yControl.value = y;
+  }
+
+  updateRelationshipSliderValue(xControl);
+  updateRelationshipSliderValue(yControl);
+};
+
+const updateRelationshipSliderValue = (control) => {
+  if (!control) {
+    return;
+  }
+
+  const value = document.querySelector(`[data-relationship-image-value="${control.dataset.relationshipImageControl}"][data-relationship-index="${control.dataset.relationshipIndex}"]`);
+
+  if (!value) {
+    return;
+  }
+
+  value.textContent = control.dataset.relationshipImageControl === 'scale' ? `${Number(control.value).toFixed(2)}x` : `${control.value}%`;
+};
+
+const applyRelationshipImageControl = (control) => {
+  const card = getRelationshipCard(control.dataset.relationshipIndex);
+
+  if (!card) {
+    return;
+  }
+
+  if (control.dataset.relationshipImageControl === 'scale') {
+    refreshRelationshipImageCanvas(control.dataset.relationshipIndex);
+    updateRelationshipSliderValue(control);
+    return;
+  }
+
+  if (control.dataset.relationshipImageControl === 'x') {
+    refreshRelationshipImageCanvas(control.dataset.relationshipIndex);
+    updateRelationshipSliderValue(control);
+    return;
+  }
+
+  if (control.dataset.relationshipImageControl === 'y') {
+    refreshRelationshipImageCanvas(control.dataset.relationshipIndex);
+    updateRelationshipSliderValue(control);
+  }
+};
+
+const bindRelationshipImageControl = (control) => {
+  const updateControl = () => applyRelationshipImageControl(control);
+  control.addEventListener('input', updateControl);
+  control.addEventListener('change', updateControl);
+  updateControl();
+};
+
+const bindRelationshipImageDrag = (card) => {
+  if (!card) {
+    return;
+  }
+
+  const frame = card.querySelector('a');
+  const image = card.querySelector('[data-image-key^="relationships."]');
+
+  if (!frame || !image || frame.dataset.relationshipDragBound) {
+    return;
+  }
+
+  const index = image.dataset.imageKey.match(/relationships\.(\d+)\.image/)[1];
+  frame.dataset.relationshipDragBound = 'true';
+  frame.dataset.relationshipWasDragged = 'false';
+  image.addEventListener('load', () => {
+    refreshRelationshipImageCanvas(index);
+  });
+  refreshRelationshipImageCanvas(index);
+
+  frame.addEventListener('pointerdown', (event) => {
+    if (event.button !== 0) {
+      return;
+    }
+
+    event.preventDefault();
+    const rect = frame.getBoundingClientRect();
+    const xControl = getRelationshipImageControl(index, 'x');
+    const yControl = getRelationshipImageControl(index, 'y');
+    const startX = Number(xControl?.value || 50);
+    const startY = Number(yControl?.value || 50);
+    const startClientX = event.clientX;
+    const startClientY = event.clientY;
+    frame.dataset.relationshipWasDragged = 'false';
+
+    const moveImage = (clientX, clientY) => {
+      const dragDistance = Math.hypot(clientX - startClientX, clientY - startClientY);
+
+      if (dragDistance > 3) {
+        frame.dataset.relationshipWasDragged = 'true';
+      }
+
+      const x = Math.max(-100, Math.min(200, startX - ((clientX - startClientX) / rect.width * 300))).toFixed(0);
+      const y = Math.max(-100, Math.min(200, startY - ((clientY - startClientY) / rect.height * 300))).toFixed(0);
+      updateRelationshipPositionControls(index, x, y);
+      refreshRelationshipImageCanvas(index);
+    };
+
+    const handlePointerMove = (moveEvent) => {
+      moveImage(moveEvent.clientX, moveEvent.clientY);
+    };
+
+    const stopDrag = () => {
+      window.removeEventListener('pointermove', handlePointerMove);
+      window.removeEventListener('pointerup', stopDrag);
+    };
+
+    window.addEventListener('pointermove', handlePointerMove);
+    window.addEventListener('pointerup', stopDrag);
+  });
+
+  frame.addEventListener('click', (event) => {
+    if (frame.dataset.relationshipWasDragged === 'true') {
+      event.preventDefault();
+      frame.dataset.relationshipWasDragged = 'false';
+    }
+  });
+};
+
+const applyRelationshipLinkInput = (input) => {
+  const card = getRelationshipCard(input.dataset.relationshipLinkInput);
+  const link = card ? card.querySelector('a') : null;
+
+  if (link) {
+    link.href = input.value || 'URLHERE';
+  }
+};
+
+const bindRelationshipLinkInput = (input) => {
+  const updateLink = () => applyRelationshipLinkInput(input);
+  input.addEventListener('input', updateLink);
+  updateLink();
+};
+
+const bindRelationshipDelete = (button) => {
+  button.addEventListener('click', () => {
+    if (document.querySelectorAll('.rel').length <= 3) {
+      return;
+    }
+
+    const index = button.dataset.deleteRelationship;
+    const card = document.querySelector(`[data-relationship-card-index="${index}"]`);
+    const section = button.closest('[data-relationship-editor-index]');
+
+    if (card) {
+      card.remove();
+    }
+
+    if (section) {
+      section.classList.remove('is-visible');
+      window.setTimeout(() => {
+        section.remove();
+      }, 350);
+    }
+  });
+};
+
+const wireEditorSection = (section) => {
+  section.querySelectorAll('input, textarea').forEach(bindEditorField);
+  section.querySelectorAll('[data-profile-input]').forEach(bindProfileInput);
+  section.querySelectorAll('[data-image-input]').forEach(bindImageInput);
+  section.querySelectorAll('[data-image-reset]').forEach(bindImageReset);
+  section.querySelectorAll('[data-relationship-image-control]').forEach(bindRelationshipImageControl);
+  section.querySelectorAll('[data-relationship-link-input]').forEach(bindRelationshipLinkInput);
+  section.querySelectorAll('[data-delete-relationship]').forEach(bindRelationshipDelete);
+};
+
+const createRelationshipCard = (index) => {
+  document.querySelector('#relationships').insertAdjacentHTML('beforeend', `
+<div class="rel" data-relationship-card-index="${index}">
+<a target="_blank" href="URLHERE"><img data-image-key="relationships.${index}.image" src="${relationshipDefaultImage}"></a>
+<div class="wrds">
+<div class="t">
+<li><b>name</b> <span data-edit-key="relationships.${index}.name">words words</span></li>
+<li><b>age</b> <span data-edit-key="relationships.${index}.age">words words</span></li>
+<li><b>location</b> <span data-edit-key="relationships.${index}.location">words words</span></li>
+<li><b>history</b> <span data-edit-key="relationships.${index}.history">words words</span></li>
+<div data-edit-key="relationships.${index}.blurb">or you can just put a blurb about them here.</div>
+</div>
+</div>
+</div>`);
+};
+
+const createRelationshipEditor = (index) => {
+  const section = document.createElement('div');
+  section.className = 'editor-section-reveal';
+  section.dataset.relationshipEditorIndex = index;
+
+  section.innerHTML = `
+<h3>Relationship ${index}</h3>
+<label>Relationship ${index} image URL
+<input type="url" data-image-input="relationships.${index}.image" data-default-url="${relationshipDefaultImage}" value="${relationshipDefaultImage}">
+</label>
+<label>Relationship ${index} friend profile URL
+<input type="url" data-relationship-link-input="${index}" value="URLHERE">
+</label>
+<button type="button" data-image-reset="relationships.${index}.image">Revert relationship ${index} image</button>
+<details class="relationship-image-advanced">
+<summary>Advanced image display</summary>
+<label>Image size
+<input type="range" min="0.2" max="4" step="0.05" value="1" data-relationship-image-control="scale" data-relationship-index="${index}">
+<span class="relationship-slider-value" data-relationship-image-value="scale" data-relationship-index="${index}">1x</span>
+</label>
+<label>Horizontal position
+<input type="range" min="-100" max="200" value="50" data-relationship-image-control="x" data-relationship-index="${index}">
+<span class="relationship-slider-value" data-relationship-image-value="x" data-relationship-index="${index}">50%</span>
+</label>
+<label>Vertical position
+<input type="range" min="-100" max="200" value="50" data-relationship-image-control="y" data-relationship-index="${index}">
+<span class="relationship-slider-value" data-relationship-image-value="y" data-relationship-index="${index}">50%</span>
+</label>
+</details>
+<label>Relationship ${index} name
+<input type="text" data-profile-input="relationships.${index}.name" value="words words">
+</label>
+<label>Relationship ${index} age
+<input type="text" data-profile-input="relationships.${index}.age" value="words words">
+</label>
+<label>Relationship ${index} location
+<input type="text" data-profile-input="relationships.${index}.location" value="words words">
+</label>
+<label>Relationship ${index} history
+<input type="text" data-profile-input="relationships.${index}.history" value="words words">
+</label>
+<label>Relationship ${index} blurb
+<textarea data-profile-input="relationships.${index}.blurb">or you can just put a blurb about them here.</textarea>
+</label>
+<button type="button" data-delete-relationship="${index}">Delete relationship ${index}</button>`;
+
+  wireEditorSection(section);
+  return section;
+};
+
+const profileEditor = document.querySelector('#profile-editor');
+const exportSidebar = document.querySelector('#export-sidebar');
+const editorScrollbar = document.querySelector('.editor-scrollbar');
+const editorScrollbarThumb = document.querySelector('.editor-scrollbar-thumb');
+let editorToolbarTimer;
+
+const showEditorToolbar = () => {
+  clearTimeout(editorToolbarTimer);
+  profileEditor.classList.add('is-toolbar-visible');
+  editorToolbarTimer = window.setTimeout(() => {
+    profileEditor.classList.remove('is-toolbar-visible');
+  }, 1200);
+};
+
+const updateEditorScrollbar = () => {
+  const maxScroll = profileEditor.scrollHeight - profileEditor.clientHeight;
+  const trackHeight = editorScrollbar.clientHeight;
+  const thumbHeight = Math.max(34, trackHeight * (profileEditor.clientHeight / profileEditor.scrollHeight));
+  const thumbTravel = trackHeight - thumbHeight;
+  const scrollRatio = maxScroll > 0 ? profileEditor.scrollTop / maxScroll : 0;
+
+  editorScrollbarThumb.style.height = `${thumbHeight}px`;
+  editorScrollbarThumb.style.transform = `translateY(${thumbTravel * scrollRatio}px)`;
+};
+
+profileEditor.addEventListener('wheel', showEditorToolbar, { passive:true });
+profileEditor.addEventListener('scroll', () => {
+  updateEditorScrollbar();
+  showEditorToolbar();
+}, { passive:true });
+
+editorScrollbar.addEventListener('pointerdown', (event) => {
+  const trackRect = editorScrollbar.getBoundingClientRect();
+  const thumbRect = editorScrollbarThumb.getBoundingClientRect();
+  const clickOffset = event.target === editorScrollbarThumb ? event.clientY - thumbRect.top : thumbRect.height / 2;
+
+  event.preventDefault();
+  profileEditor.classList.add('is-scrollbar-dragging');
+
+  const dragTo = (clientY) => {
+    const maxScroll = profileEditor.scrollHeight - profileEditor.clientHeight;
+    const thumbHeight = editorScrollbarThumb.offsetHeight;
+    const thumbTravel = editorScrollbar.clientHeight - thumbHeight;
+    const nextTop = Math.max(0, Math.min(thumbTravel, clientY - trackRect.top - clickOffset));
+    profileEditor.scrollTop = thumbTravel > 0 ? (nextTop / thumbTravel) * maxScroll : 0;
+    updateEditorScrollbar();
+    showEditorToolbar();
+  };
+
+  const handlePointerMove = (moveEvent) => {
+    dragTo(moveEvent.clientY);
+  };
+
+  const stopDrag = () => {
+    profileEditor.classList.remove('is-scrollbar-dragging');
+    window.removeEventListener('pointermove', handlePointerMove);
+    window.removeEventListener('pointerup', stopDrag);
+  };
+
+  dragTo(event.clientY);
+  window.addEventListener('pointermove', handlePointerMove);
+  window.addEventListener('pointerup', stopDrag);
+});
+
+updateEditorScrollbar();
+
+const getExportCss = () => {
+  let css = document.querySelector('style').textContent.trim();
+  const editorStart = css.indexOf('#profile-editor {');
+  const highlightStart = css.indexOf('.profile-image-highlight');
+
+  if (editorStart !== -1 && highlightStart !== -1) {
+    css = css.slice(0, editorStart) + css.slice(highlightStart);
+  }
+
+  const cleanHighlightStart = css.indexOf('.profile-image-highlight');
+  const codeBubbleStart = css.indexOf('#code-bg-bubbles');
+
+  if (cleanHighlightStart !== -1 && codeBubbleStart !== -1) {
+    css = css.slice(0, cleanHighlightStart) + css.slice(codeBubbleStart);
+  }
+
+  return css.trim();
+};
+
+const getExportHtml = () => `${document.querySelector('#code-bg-bubbles').outerHTML}
+
+${document.querySelector('#bitch').outerHTML}`;
+
+const getExportJavascript = () => {
+  const backgroundOption = getBackgroundOption();
+  const customBackground = document.querySelector('[data-image-input="body.background"]').value.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  const creditIsVisible = !document.querySelector('#credit-fade-toggle').checked;
+  const usesCodeBackground = backgroundOption === 'code' || backgroundOption === 'code-animated';
+  const usesAnimatedBubbles = backgroundOption === 'code-animated';
+
+  return `const defaultBackgroundImage = '${defaultBackgroundImage}';
+const customBackgroundImage = '${customBackground}';
+const codeOnlyBackground = \`${codeOnlyBackground}\`;
+
+document.body.classList.toggle('profile-code-background', ${usesCodeBackground});
+document.body.classList.toggle('profile-animated-bubbles', ${usesAnimatedBubbles});
+document.body.classList.toggle('credit-badge-visible', ${creditIsVisible});
+
+if (${backgroundOption === 'default'}) {
+  document.body.style.backgroundImage = \`url('\${defaultBackgroundImage}')\`;
+} else if (${backgroundOption === 'custom'}) {
+  document.body.style.backgroundImage = \`url('\${customBackgroundImage}')\`;
+} else {
+  document.body.style.backgroundImage = codeOnlyBackground;
+}
+
+if (${usesAnimatedBubbles}) {
+  const bubbles = [...document.querySelectorAll('.code-bg-bubble')];
+  const timers = new Map();
+  const randomBetween = (min, max) => Math.random() * (max - min) + min;
+  const clampPercent = (value) => Math.max(0, Math.min(100, value));
+
+  const moveBubble = (bubble) => {
+    if (bubble.classList.contains('is-popping') || bubble.classList.contains('is-respawning') || bubble.style.display === 'none') {
+      return;
+    }
+    const currentX = parseFloat(bubble.style.getPropertyValue('--bubble-x'));
+    const currentY = parseFloat(bubble.style.getPropertyValue('--bubble-y'));
+    const nextX = clampPercent(currentX + randomBetween(-8, 8));
+    const nextY = clampPercent(currentY + randomBetween(-6, 6));
+    const duration = randomBetween(30, 54) / 4.5;
+    bubble.style.setProperty('--move-duration', \`\${duration.toFixed(2)}s\`);
+    bubble.style.setProperty('--bubble-x', \`\${nextX.toFixed(2)}%\`);
+    bubble.style.setProperty('--bubble-y', \`\${nextY.toFixed(2)}%\`);
+    timers.set(bubble, window.setTimeout(() => moveBubble(bubble), (duration * 1000) + randomBetween(500, 2000)));
+  };
+
+  const spawnParticles = (bubble) => {
+    const rect = bubble.getBoundingClientRect();
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top + rect.height / 2;
+    for (let i = 0; i < 20; i++) {
+      const particle = document.createElement('div');
+      const angle = (i / 20) * Math.PI * 2;
+      const distance = randomBetween(18, 58);
+      particle.style.cssText = \`position:fixed;left:\${cx}px;top:\${cy}px;width:5px;height:5px;border-radius:50%;background:white;opacity:.6;pointer-events:none;z-index:1;transition:transform .45s ease, opacity .45s ease;\`;
+      document.body.appendChild(particle);
+      requestAnimationFrame(() => {
+        particle.style.transform = \`translate(\${Math.cos(angle) * distance}px, \${Math.sin(angle) * distance}px) scale(.2)\`;
+        particle.style.opacity = '0';
+      });
+      window.setTimeout(() => particle.remove(), 500);
+    }
+  };
+
+  bubbles.forEach((bubble) => {
+    moveBubble(bubble);
+    bubble.addEventListener('click', () => {
+      if (bubble.classList.contains('is-popping')) return;
+      clearTimeout(timers.get(bubble));
+      bubble.classList.add('is-popping');
+      window.setTimeout(() => {
+        spawnParticles(bubble);
+        bubble.style.display = 'none';
+      }, 120);
+      window.setTimeout(() => {
+        bubble.classList.remove('is-popping');
+        bubble.style.setProperty('--bubble-x', \`\${randomBetween(0, 100).toFixed(2)}%\`);
+        bubble.style.setProperty('--bubble-y', \`\${randomBetween(0, 100).toFixed(2)}%\`);
+        bubble.style.display = '';
+        bubble.classList.remove('is-respawning');
+        void bubble.offsetWidth;
+        bubble.classList.add('is-respawning');
+        moveBubble(bubble);
+        bubble.addEventListener('animationend', () => bubble.classList.remove('is-respawning'), { once:true });
+      }, randomBetween(1000, 5000));
+    });
+  });
+}`.trim();
+};
+
+const populateExportFields = () => {
+  document.querySelector('#export-javascript').value = getExportJavascript();
+  document.querySelector('#export-html').value = getExportHtml();
+  document.querySelector('#export-css').value = getExportCss();
+};
+
+document.querySelector('#export-profile').addEventListener('click', () => {
+  populateExportFields();
+  profileEditor.classList.add('is-exporting');
+  exportSidebar.classList.add('is-visible');
+  exportSidebar.setAttribute('aria-hidden', 'false');
+});
+
+document.querySelector('#back-to-editor').addEventListener('click', () => {
+  exportSidebar.classList.remove('is-visible');
+  exportSidebar.setAttribute('aria-hidden', 'true');
+  profileEditor.classList.remove('is-exporting');
+});
+
+document.querySelectorAll('[data-copy-export]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const textarea = document.querySelector(`#export-${button.dataset.copyExport}`);
+    textarea.select();
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(textarea.value);
+      return;
+    }
+    document.execCommand('copy');
+  });
+});
+
+document.querySelectorAll('[data-image-input]').forEach(bindImageInput);
+document.querySelectorAll('[data-image-reset]').forEach(bindImageReset);
+document.querySelectorAll('[data-title-texture-preset]').forEach(bindTitleTexturePreset);
+document.querySelectorAll('[data-sidebar-icon-preset]').forEach(bindSidebarIconPreset);
+document.querySelectorAll('[data-relationship-image-control]').forEach(bindRelationshipImageControl);
+document.querySelectorAll('[data-relationship-link-input]').forEach(bindRelationshipLinkInput);
+document.querySelectorAll('.rel').forEach(bindRelationshipImageDrag);
+setBackgroundOption(getBackgroundOption());
+setAnimatedCodeBubbles(animatedBubblesToggle.checked);
+updateTitleTexturePreset(document.querySelector('[data-image-input="title.texture"]').value);
+updateSidebarIconPreset(document.querySelector('[data-image-input="sidebar.icon"]').value);
+applyProfileImage('title.texture', document.querySelector('[data-image-input="title.texture"]').value);
+applyProfileImage('sidebar.icon', document.querySelector('[data-image-input="sidebar.icon"]').value);
+
+document.querySelector('#add-relationship').addEventListener('click', () => {
+  relationshipCount += 1;
+  createRelationshipCard(relationshipCount);
+  bindRelationshipImageDrag(getRelationshipCard(relationshipCount));
+
+  const editorSection = createRelationshipEditor(relationshipCount);
+  const addButton = document.querySelector('#add-relationship');
+
+  addButton.parentNode.insertBefore(editorSection, addButton);
+  requestAnimationFrame(() => {
+    editorSection.classList.add('is-visible');
+  });
+});
+</script>
